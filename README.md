@@ -75,7 +75,7 @@ La tabla `mensajes` contiene:
 ## 📁 Estructura del Proyecto
 
 ```
-chat_sockets_sqlite/
+comunicación cliente-servidor/
 ├── servidor.py          # Lógica principal del servidor concurrente y sockets
 ├── cliente.py           # Cliente interactivo multihilo
 ├── consultar_db.py      # Script utilitario para consultar y auditar la BD

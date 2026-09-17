@@ -1,7 +1,7 @@
 # TP: Chat Cliente-Servidor con Sockets y SQLite
 
 Trabajo Práctico correspondiente a la Propuesta Formativa Obligatoria.
-Implementación de una arquitectura cliente-servidor orientada a conexión (TCP) con manejo concurrente de clientes mediante multihilos (`threading`) y persistencia estructurada en base de datos relacional SQLite (`sqlite3`).
+Implementación de una arquitectura cliente-servidor orientada a conexión (TCP), con persistencia en SQLite.
 
 ---
 
@@ -64,7 +64,20 @@ O directamente con la CLI de SQLite:
 
 ```bash
 sqlite3 chat.db "SELECT * FROM mensajes;"
+
 ```
+
+## Base de datos
+
+La tabla `mensajes` contiene:
+
+| Campo         | Descripción                        |
+| ------------- | ---------------------------------- |
+| `id`          | Identificador único                |
+| `ip_cliente`  | IP del cliente                     |
+| `fecha_envio` | Fecha y hora                       |
+| `contenido`   | Consulta enviada por el cliente    |
+| `respuesta`   | Respuesta generada por el servidor |
 
 ---
 
@@ -82,12 +95,21 @@ chat_sockets_sqlite/
 ## Imagenes de funcionamientos
 
 ### Servidor y Cliente
+
 ![Ejecución del servidor](img/conec.Exitoso.png)
+
 ### Ejecución respuesta menu
+
 ![Ejecución respuesta menu](img/res.Menu.png)
+
 ### Ejecución respuesta a pregunta
+
 ![Ejecución respuesta a pregunta](img/res.Pregunta.png)
+
 ### Salida exitosa
+
 ![Salida exitosa](img/salida.png)
+
 ### Consulta a base de datos
+
 ![Consulta a base de datos](img/ConsultaMensajes.png)

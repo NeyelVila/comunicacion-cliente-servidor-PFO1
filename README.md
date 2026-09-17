@@ -23,15 +23,6 @@ Implementación de una arquitectura cliente-servidor orientada a conexión (TCP)
 - Finalización de sesión al escribir `éxito` (o `exito`).
 - Escucha asíncrona mediante un hilo dedicado: muestra inmediatamente la confirmación del servidor y los mensajes difundidos por otros clientes sin bloquear el prompt del usuario.
 
-### Base de Datos (`chat.db`)
-
-Estructura de la tabla `mensajes`:
-
-- `id` (INTEGER PRIMARY KEY AUTOINCREMENT)
-- `contenido` (TEXT NOT NULL)
-- `fecha_envio` (TEXT NOT NULL)
-- `ip_cliente` (TEXT NOT NULL)
-
 ---
 
 ## 🚀 Guía de Ejecución Local

@@ -82,9 +82,12 @@ chat_sockets_sqlite/
 ## Imagenes de funcionamientos
 
 ### Servidor y Cliente
-
 ![Ejecución del servidor](img/conec.Exitoso.png)
+### Ejecución respuesta menu
 ![Ejecución respuesta menu](img/res.Menu.png.png)
+### Ejecución respuesta a pregunta
 ![Ejecución respuesta a pregunta](img/res.Pregunta.png)
+### Salida exitosa
 ![Salida exitosa](img/salida.png)
+### Consulta a base de datos
 ![Consulta a base de datos](img/ConsultaMensajes.png)

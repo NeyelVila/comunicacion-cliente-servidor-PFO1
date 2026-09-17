@@ -84,7 +84,7 @@ chat_sockets_sqlite/
 ### Servidor y Cliente
 ![Ejecución del servidor](img/conec.Exitoso.png)
 ### Ejecución respuesta menu
-![Ejecución respuesta menu](img/res.Menu.png.png)
+![Ejecución respuesta menu](img/res.Menu.png)
 ### Ejecución respuesta a pregunta
 ![Ejecución respuesta a pregunta](img/res.Pregunta.png)
 ### Salida exitosa

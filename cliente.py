@@ -7,7 +7,9 @@ PORT = 5500
 
 
 def iniciar_cliente():
-    """Conecta al servidor y permite enviar múltiples preguntas interactivamente."""
+    """Conecta al servidor y permite enviar múltiples preguntas."""
+    cliente = None
+
     try:
         # Creación del socket TCP
         cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

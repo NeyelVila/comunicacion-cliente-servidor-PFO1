@@ -107,3 +107,6 @@ comunicación cliente-servidor/
 
 ## **👨‍🎓Estudiante**
 [<img src="https://avatars.githubusercontent.com/u/95725306?v=4" width="115"><br><sub>Neyel Vilaseco</sub><br><sub>neyelvilaseco@gmail.com</sub>](https://github.com/NeyelVila)
+
+## Licencia
+Proyecto con fines educativos (PFO1).

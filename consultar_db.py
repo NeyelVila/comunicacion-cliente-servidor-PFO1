@@ -1,5 +1,7 @@
 """
+Herramienta de Verificación y Consulta de la Base de Datos SQLite
 Permite comprobar de forma rápida que los mensajes se guarden correctamente
+con los campos requeridos: id, contenido, fecha_envio, ip_cliente.
 """
 
 import sqlite3

@@ -8,7 +8,7 @@ HOST = 'localhost'
 PORT = 5500
 DB_PATH = 'chat.db'
 
-# Base datos (Preguntas frecuentes y respuestas)
+# Base de conocimiento (Preguntas frecuentes y respuestas)
 PREGUNTAS_RESPUESTAS = {
     "¿cuál es la capital de francia?": "París",
     "¿cuantos lados tiene un cuadrado?": "4",
@@ -29,7 +29,7 @@ def inicializar_db(nombre_db: str = DB_PATH):
         conexion = sqlite3.connect(nombre_db)
         cursor = conexion.cursor()
         
-        # Estructura de la tabla
+        # Estructura requerida: id, contenido, fecha_envio, ip_cliente
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS mensajes (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -82,7 +82,7 @@ def inicializar_socket(host: str, puerto: int) -> socket.socket:
     Maneja el error en caso de que el puerto ya esté en uso.
     """
     try:
-        # Configuración del socket
+        # Configuración del socket TCP (IPv4 + Stream)
         servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         
         # SO_REUSEADDR evita el bloqueo del socket tras un reinicio inmediato

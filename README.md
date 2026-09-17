@@ -78,3 +78,13 @@ chat_sockets_sqlite/
 ├── README.md            # Documentación técnica completa
 └── chat.db              # Base de datos SQLite (se genera automáticamente)
 ```
+
+## Imagenes de funcionamientos
+
+### Servidor y Cliente
+
+![Ejecución del servidor](img/conec.Exitoso.png)
+![Ejecución respuesta menu](img/res.Menu.png.png)
+![Ejecución respuesta a pregunta](img/res.Pregunta.png)
+![Salida exitosa](img/salida.png)
+![Consulta a base de datos](img/ConsultaMensajes.png)

@@ -104,3 +104,6 @@ comunicación cliente-servidor/
 ### Consulta a base de datos
 
 ![Consulta a base de datos](img/ConsultaMensajes.png)
+
+## **👨‍🎓Estudiante**
+[<img src="https://avatars.githubusercontent.com/u/95725306?v=4" width="115"><br><sub>Neyel Vilaseco</sub><br><sub>neyelvilaseco@gmail.com</sub>](https://github.com/NeyelVila)
